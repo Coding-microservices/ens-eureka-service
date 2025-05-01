@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ens-eureka-service
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
